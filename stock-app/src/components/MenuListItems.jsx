@@ -43,40 +43,19 @@ const icons = [
     icon: <InventoryIcon />,
     url: "/stock/products/",
   },
-  {
-    title: "Admin Panel",
-    icon: <SupervisorAccountIcon />,
-    url: "https://10001.fullstack.clarusway.com/admin",
-  },
 ];
 
-const iconStyle = {
-  color: "#eee",
-  "& .MuiSvgIcon-root": { color: "#eee" },
-  "&:hover": { color: "red" },
-  "&:hover .MuiSvgIcon-root": { color: "red" },
-};
-
 const MenuListItems = () => {
-  const navigate = useNavigate();
   return (
     <div>
       <List>
-        {icons?.map((item, index) => (
-          <ListItem key={index} disablePadding>
-            {item.url.includes("http") && (
-              <ListItemButton to={item.url} sx={iconStyle}>
-                <ListItemIcon>{item.icon}</ListItemIcon>
-                <ListItemText primary={item.title} />
-              </ListItemButton>
-            )}
-
-            {!item.url.includes("http") && (
-              <ListItemButton onClick={() => navigate(item.url)} sx={iconStyle}>
-                <ListItemIcon>{item.icon}</ListItemIcon>
-                <ListItemText primary={item.title} />
-              </ListItemButton>
-            )}
+        {[].map((text, index) => (
+          <ListItem kiy={text} disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+              </ListItemIcon>
+            </ListItemButton>
           </ListItem>
         ))}
       </List>
