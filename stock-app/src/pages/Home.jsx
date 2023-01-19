@@ -1,13 +1,6 @@
-import { useEffect } from "react";
-import useStockCalls from "../hooks/useStockCalls";
+import React from "react";
 
 const Home = () => {
-  const { getFirms, getSales } = useStockCalls();
-  useEffect(() => {
-    getFirms();
-    getSales();
-  }, []);
-
   return <div>Home</div>;
 };
 
