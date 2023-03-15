@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/08_milestone_project_react/static/css/main.6f287c38.css",
-    "main.js": "/08_milestone_project_react/static/js/main.0e49430b.js",
-    "static/media/result.svg": "/08_milestone_project_react/static/media/result.eebf37999ce8a048847f3182de8d255a.svg",
-    "index.html": "/08_milestone_project_react/index.html",
-    "main.6f287c38.css.map": "/08_milestone_project_react/static/css/main.6f287c38.css.map",
-    "main.0e49430b.js.map": "/08_milestone_project_react/static/js/main.0e49430b.js.map"
+    "main.css": "/static/css/main.6f287c38.css",
+    "main.js": "/static/js/main.73885233.js",
+    "static/media/result.svg": "/static/media/result.eebf37999ce8a048847f3182de8d255a.svg",
+    "index.html": "/index.html",
+    "main.6f287c38.css.map": "/static/css/main.6f287c38.css.map",
+    "main.73885233.js.map": "/static/js/main.73885233.js.map"
   },
   "entrypoints": [
     "static/css/main.6f287c38.css",
-    "static/js/main.0e49430b.js"
+    "static/js/main.73885233.js"
   ]
 }
